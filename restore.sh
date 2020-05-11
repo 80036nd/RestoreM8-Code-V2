@@ -36,5 +36,6 @@
  clear
  echo "Your Device Should be Restored"
  echo "RestoreM8 By 80036nd"
+ echo "Terminal Closing in 10 seconds"
 sleep 10 
 killall Terminal
