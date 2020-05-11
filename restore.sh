@@ -7,7 +7,7 @@
  if [ -f "$FILE" ]; then
  echo "The $FILE file exists. Continuing..."
  else
- echo "The $FILE file does not exist on the ~/Documents/RestoreM8 folder! Cannot continue."
+ echo "The $FILE file does not exist on the ~/Documents/RestoreM8-GeoPatch folder! Cannot continue."
  exit
  fi
 
@@ -15,7 +15,7 @@
  if [ -f "$FILE" ]; then
  echo "The $FILE file exists. Continuing..."
  else
- echo "The $FILE file does not exist on the ~/Documents/RestoreM8 folder! Cannot continue."
+ echo "The $FILE file does not exist on the ~/Documents/RestoreM8-GeoPatch folder! Cannot continue."
  exit
  fi
 
@@ -23,7 +23,7 @@
  if [ -f "$FILE" ]; then
  echo "The $FILE file exists. Continuing..."
  else
- echo "The $FILE file does not exist on the ~/Documents/RestoreM8 folder! Cannot continue. Please re-download the code from the app!"
+ echo "The $FILE file does not exist on the ~/Documents/RestoreM8-GeoPatch folder! Cannot continue. Please re-download the code from the app!"
  exit
  fi
  echo "Now transfering the control to FutureRestore! Please monitor the Terminal!"
