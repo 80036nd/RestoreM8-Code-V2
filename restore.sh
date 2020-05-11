@@ -1,7 +1,7 @@
 #!/bin/bash
  set -e
  clear
- cd ~/Documents/RestoreM8
+ cd ~/Documents/RestoreM8-GeoPatch
  echo "RestoreM8 By 80036nd"
  FILE=restore.ipsw
  if [ -f "$FILE" ]; then
