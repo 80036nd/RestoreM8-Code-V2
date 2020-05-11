@@ -18,6 +18,8 @@
  echo "The $FILE file exists. Continuing..."
  else
  echo "The $FILE file does not exist on the ~/Documents/RestoreM8-GeoPatch folder! Cannot continue."
+ sleep 5
+ killall Terminal
  exit
  fi
 
