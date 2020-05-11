@@ -8,8 +8,9 @@
  echo "The $FILE file exists. Continuing..."
  else
  echo "The $FILE file does not exist on the ~/Documents/RestoreM8-GeoPatch folder! Cannot continue."
- sleep 5
- killall Terminal
+ echo "Terminal Closing in 10 seconds"
+sleep 10 
+killall Terminal
  exit
  fi
 
@@ -18,8 +19,9 @@
  echo "The $FILE file exists. Continuing..."
  else
  echo "The $FILE file does not exist on the ~/Documents/RestoreM8-GeoPatch folder! Cannot continue."
- sleep 5
- killall Terminal
+ echo "Terminal Closing in 10 seconds"
+sleep 10 
+killall Terminal
  exit
  fi
 
