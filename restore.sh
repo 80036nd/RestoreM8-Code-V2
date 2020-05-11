@@ -42,6 +42,7 @@ killall Terminal
  clear
  echo "Your Device Should be Restored"
  echo "RestoreM8 By 80036nd"
+ echo "Patches by GeoSn0w"
  echo "Terminal Closing in 10 seconds"
 sleep 10 
 killall Terminal
